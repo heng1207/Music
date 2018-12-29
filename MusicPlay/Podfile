@@ -1,0 +1,11 @@
+platform :ios, ‘8.0‘
+
+target "MusicPlay" do
+use_frameworks!
+
+pod 'Masonry'
+pod 'FLAnimatedImage'
+pod 'StreamingKit'
+
+
+end

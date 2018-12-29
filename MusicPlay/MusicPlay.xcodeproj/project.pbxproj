@@ -1,0 +1,694 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B1A563DDC0E2D16EB26FB3D /* Pods_MusicPlay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48633FA432D6A97A706C80F8 /* Pods_MusicPlay.framework */; };
+		4E08F301214FA06E00C9A49D /* ZQLyricTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E08F300214FA06E00C9A49D /* ZQLyricTool.m */; };
+		4E08F304214FA0B100C9A49D /* ZQLrcModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E08F302214FA0B100C9A49D /* ZQLrcModel.m */; };
+		4E08F307214FA3E600C9A49D /* ZQLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E08F305214FA3E600C9A49D /* ZQLabel.m */; };
+		4E08F309214FAAD000C9A49D /* 李克勤 - 月半小夜曲.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4E08F308214FAAD000C9A49D /* 李克勤 - 月半小夜曲.mp3 */; };
+		4E0FC9CA21C106AE004CB2C5 /* AudioPlayVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E0FC9C921C106AE004CB2C5 /* AudioPlayVC.m */; };
+		4E145E16217D6F3E0064CC5D /* WebVideoPlayVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E145E15217D6F3E0064CC5D /* WebVideoPlayVC.m */; };
+		4E1A0F97216EF88E00C432F4 /* JXTProgressLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E1A0F96216EF88E00C432F4 /* JXTProgressLabel.m */; };
+		4E566DE2217434C40049665E /* 刚好遇见你.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 4E566DE1217434C40049665E /* 刚好遇见你.lrc */; };
+		4E67428D215F79B600B34CE7 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E67428C215F79B600B34CE7 /* RootViewController.m */; };
+		4ED29BA621A258C600664B11 /* 月半小夜曲.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 4ED29BA521A258C600664B11 /* 月半小夜曲.lrc */; };
+		4ED29BE521A26F2600664B11 /* DFPlayerControlManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED29BCF21A26F2600664B11 /* DFPlayerControlManager.m */; };
+		4ED29BE621A26F2600664B11 /* DFPlayerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED29BD221A26F2600664B11 /* DFPlayerModel.m */; };
+		4ED29BE721A26F2600664B11 /* DFPlayerRemoteApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED29BD621A26F2600664B11 /* DFPlayerRemoteApplication.m */; };
+		4ED29BE821A26F2600664B11 /* DFPlayerRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED29BD721A26F2600664B11 /* DFPlayerRequestManager.m */; };
+		4ED29BE921A26F2600664B11 /* DFPlayerResourceLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED29BD821A26F2600664B11 /* DFPlayerResourceLoader.m */; };
+		4ED29BEA21A26F2600664B11 /* DFPlayerTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED29BD921A26F2600664B11 /* DFPlayerTool.m */; };
+		4ED29BEB21A26F2600664B11 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED29BDD21A26F2600664B11 /* AFNetworkReachabilityManager.m */; };
+		4ED29BEC21A26F2600664B11 /* DFPlayerFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED29BE121A26F2600664B11 /* DFPlayerFileManager.m */; };
+		4ED29BED21A26F2600664B11 /* DFPlayerLyricsTableview.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED29BE221A26F2600664B11 /* DFPlayerLyricsTableview.m */; };
+		4ED29BEE21A26F2600664B11 /* DFPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED29BE321A26F2600664B11 /* DFPlayer.m */; };
+		4ED29BEF21A26F2600664B11 /* DFPlayer.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4ED29BE421A26F2600664B11 /* DFPlayer.bundle */; };
+		4EF4D9082150B8E000517D87 /* UIColor+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF4D9062150B8E000517D87 /* UIColor+Addition.m */; };
+		4EF6AB09214B5C5F001B7D83 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF6AB08214B5C5F001B7D83 /* AppDelegate.m */; };
+		4EF6AB0C214B5C5F001B7D83 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF6AB0B214B5C5F001B7D83 /* ViewController.m */; };
+		4EF6AB0F214B5C5F001B7D83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EF6AB0D214B5C5F001B7D83 /* Main.storyboard */; };
+		4EF6AB11214B5C60001B7D83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EF6AB10214B5C60001B7D83 /* Assets.xcassets */; };
+		4EF6AB14214B5C60001B7D83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EF6AB12214B5C60001B7D83 /* LaunchScreen.storyboard */; };
+		4EF6AB17214B5C60001B7D83 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF6AB16214B5C60001B7D83 /* main.m */; };
+		4EF6AB1F214B63A8001B7D83 /* YourDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF6AB1D214B63A8001B7D83 /* YourDataModel.m */; };
+		4EF6AB24214B6FCB001B7D83 /* UIImage+Blur.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF6AB22214B6FCB001B7D83 /* UIImage+Blur.m */; };
+		4EF6AB40214B7163001B7D83 /* AudioData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4EF6AB26214B7163001B7D83 /* AudioData.plist */; };
+		4EF6AB41214B7163001B7D83 /* 王若琳-迷宫.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 4EF6AB28214B7163001B7D83 /* 王若琳-迷宫.lrc */; };
+		4EF6AB42214B7163001B7D83 /* 周渝民-记得我爱你.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 4EF6AB29214B7163001B7D83 /* 周渝民-记得我爱你.lrc */; };
+		4EF6AB43214B7163001B7D83 /* Dragon Pig-全部都是你.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 4EF6AB2A214B7163001B7D83 /* Dragon Pig-全部都是你.lrc */; };
+		4EF6AB44214B7163001B7D83 /* 刘依朵-醉红颜.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 4EF6AB2B214B7163001B7D83 /* 刘依朵-醉红颜.lrc */; };
+		4EF6AB45214B7163001B7D83 /* 许嵩(Vae)-有何不可.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 4EF6AB2C214B7163001B7D83 /* 许嵩(Vae)-有何不可.lrc */; };
+		4EF6AB46214B7163001B7D83 /* 巴音汗-80000!.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 4EF6AB2D214B7163001B7D83 /* 巴音汗-80000!.lrc */; };
+		4EF6AB47214B7163001B7D83 /* 音阙诗听-红昭愿.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 4EF6AB2E214B7163001B7D83 /* 音阙诗听-红昭愿.lrc */; };
+		4EF6AB48214B7163001B7D83 /* 汪苏泷-追光者.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 4EF6AB2F214B7163001B7D83 /* 汪苏泷-追光者.lrc */; };
+		4EF6AB49214B7163001B7D83 /* ihoudf-dfplayer.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 4EF6AB30214B7163001B7D83 /* ihoudf-dfplayer.lrc */; };
+		4EF6AB4A214B7163001B7D83 /* 权志龙-MISSING YOU.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 4EF6AB31214B7163001B7D83 /* 权志龙-MISSING YOU.lrc */; };
+		4EF6AB4B214B7163001B7D83 /* 阿悄-死皮赖脸.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 4EF6AB32214B7163001B7D83 /* 阿悄-死皮赖脸.lrc */; };
+		4EF6AB4C214B7163001B7D83 /* 徐良&小凌-321对不起.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 4EF6AB33214B7163001B7D83 /* 徐良&小凌-321对不起.lrc */; };
+		4EF6AB4D214B7163001B7D83 /* 韩安旭-多幸运.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 4EF6AB34214B7163001B7D83 /* 韩安旭-多幸运.lrc */; };
+		4EF6AB4E214B7163001B7D83 /* Frankmusik-Wrecking Ball.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4EF6AB36214B7163001B7D83 /* Frankmusik-Wrecking Ball.mp3 */; };
+		4EF6AB4F214B7163001B7D83 /* 张杰-三生三世.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4EF6AB37214B7163001B7D83 /* 张杰-三生三世.mp3 */; };
+		4EF6AB50214B7163001B7D83 /* 陈冠希-战争.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4EF6AB38214B7163001B7D83 /* 陈冠希-战争.mp3 */; };
+		4EF6AB51214B7163001B7D83 /* Flo Rida-Can't Believe It.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4EF6AB39214B7163001B7D83 /* Flo Rida-Can't Believe It.mp3 */; };
+		4EF6AB52214B7163001B7D83 /* 태양-눈,코,입 (眼，鼻，嘴).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4EF6AB3A214B7163001B7D83 /* 태양-눈,코,입 (眼，鼻，嘴).mp3 */; };
+		4EF6AB53214B7163001B7D83 /* 911-I Do.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4EF6AB3B214B7163001B7D83 /* 911-I Do.mp3 */; };
+		4EF6AB54214B7163001B7D83 /* PRC 巴音汗-80000 !.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4EF6AB3C214B7163001B7D83 /* PRC 巴音汗-80000 !.mp3 */; };
+		4EF6AB55214B7163001B7D83 /* Tez Cadey-Seve (Radio Edit).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4EF6AB3D214B7163001B7D83 /* Tez Cadey-Seve (Radio Edit).mp3 */; };
+		4EF6AB56214B7163001B7D83 /* addAudio.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4EF6AB3E214B7163001B7D83 /* addAudio.plist */; };
+		4EF6AB59214B87F2001B7D83 /* LocalAudioData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4EF6AB58214B87F2001B7D83 /* LocalAudioData.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1C779F0B18283A3B6D20D993 /* Pods-MusicPlay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusicPlay.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MusicPlay/Pods-MusicPlay.debug.xcconfig"; sourceTree = "<group>"; };
+		48633FA432D6A97A706C80F8 /* Pods_MusicPlay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MusicPlay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E08F2FF214FA06E00C9A49D /* ZQLyricTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQLyricTool.h; sourceTree = "<group>"; };
+		4E08F300214FA06E00C9A49D /* ZQLyricTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQLyricTool.m; sourceTree = "<group>"; };
+		4E08F302214FA0B100C9A49D /* ZQLrcModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQLrcModel.m; sourceTree = "<group>"; };
+		4E08F303214FA0B100C9A49D /* ZQLrcModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQLrcModel.h; sourceTree = "<group>"; };
+		4E08F305214FA3E600C9A49D /* ZQLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQLabel.m; sourceTree = "<group>"; };
+		4E08F306214FA3E600C9A49D /* ZQLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQLabel.h; sourceTree = "<group>"; };
+		4E08F308214FAAD000C9A49D /* 李克勤 - 月半小夜曲.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "李克勤 - 月半小夜曲.mp3"; sourceTree = "<group>"; };
+		4E0FC9C821C106AE004CB2C5 /* AudioPlayVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioPlayVC.h; sourceTree = "<group>"; };
+		4E0FC9C921C106AE004CB2C5 /* AudioPlayVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioPlayVC.m; sourceTree = "<group>"; };
+		4E145E14217D6F3E0064CC5D /* WebVideoPlayVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebVideoPlayVC.h; sourceTree = "<group>"; };
+		4E145E15217D6F3E0064CC5D /* WebVideoPlayVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebVideoPlayVC.m; sourceTree = "<group>"; };
+		4E1A0F95216EF88D00C432F4 /* JXTProgressLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXTProgressLabel.h; sourceTree = "<group>"; };
+		4E1A0F96216EF88E00C432F4 /* JXTProgressLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXTProgressLabel.m; sourceTree = "<group>"; };
+		4E566DE1217434C40049665E /* 刚好遇见你.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "刚好遇见你.lrc"; sourceTree = "<group>"; };
+		4E67428B215F79B600B34CE7 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		4E67428C215F79B600B34CE7 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		4ED29BA521A258C600664B11 /* 月半小夜曲.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "月半小夜曲.lrc"; sourceTree = "<group>"; };
+		4ED29BCF21A26F2600664B11 /* DFPlayerControlManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFPlayerControlManager.m; sourceTree = "<group>"; };
+		4ED29BD021A26F2600664B11 /* DFPlayerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFPlayerModel.h; sourceTree = "<group>"; };
+		4ED29BD121A26F2600664B11 /* DFPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFPlayer.h; sourceTree = "<group>"; };
+		4ED29BD221A26F2600664B11 /* DFPlayerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFPlayerModel.m; sourceTree = "<group>"; };
+		4ED29BD321A26F2600664B11 /* DFPlayerControlManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFPlayerControlManager.h; sourceTree = "<group>"; };
+		4ED29BD521A26F2600664B11 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		4ED29BD621A26F2600664B11 /* DFPlayerRemoteApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFPlayerRemoteApplication.m; sourceTree = "<group>"; };
+		4ED29BD721A26F2600664B11 /* DFPlayerRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFPlayerRequestManager.m; sourceTree = "<group>"; };
+		4ED29BD821A26F2600664B11 /* DFPlayerResourceLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFPlayerResourceLoader.m; sourceTree = "<group>"; };
+		4ED29BD921A26F2600664B11 /* DFPlayerTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFPlayerTool.m; sourceTree = "<group>"; };
+		4ED29BDA21A26F2600664B11 /* DFPlayerFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFPlayerFileManager.h; sourceTree = "<group>"; };
+		4ED29BDB21A26F2600664B11 /* DFPlayerLyricsTableview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFPlayerLyricsTableview.h; sourceTree = "<group>"; };
+		4ED29BDC21A26F2600664B11 /* DFPlayerRemoteApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFPlayerRemoteApplication.h; sourceTree = "<group>"; };
+		4ED29BDD21A26F2600664B11 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		4ED29BDE21A26F2600664B11 /* DFPlayerTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFPlayerTool.h; sourceTree = "<group>"; };
+		4ED29BDF21A26F2600664B11 /* DFPlayerResourceLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFPlayerResourceLoader.h; sourceTree = "<group>"; };
+		4ED29BE021A26F2600664B11 /* DFPlayerRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFPlayerRequestManager.h; sourceTree = "<group>"; };
+		4ED29BE121A26F2600664B11 /* DFPlayerFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFPlayerFileManager.m; sourceTree = "<group>"; };
+		4ED29BE221A26F2600664B11 /* DFPlayerLyricsTableview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFPlayerLyricsTableview.m; sourceTree = "<group>"; };
+		4ED29BE321A26F2600664B11 /* DFPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFPlayer.m; sourceTree = "<group>"; };
+		4ED29BE421A26F2600664B11 /* DFPlayer.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = DFPlayer.bundle; sourceTree = "<group>"; };
+		4EF4D9052150B7D900517D87 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		4EF4D9062150B8E000517D87 /* UIColor+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Addition.m"; sourceTree = "<group>"; };
+		4EF4D9072150B8E000517D87 /* UIColor+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Addition.h"; sourceTree = "<group>"; };
+		4EF6AB04214B5C5E001B7D83 /* MusicPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EF6AB07214B5C5F001B7D83 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4EF6AB08214B5C5F001B7D83 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4EF6AB0A214B5C5F001B7D83 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4EF6AB0B214B5C5F001B7D83 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4EF6AB0E214B5C5F001B7D83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4EF6AB10214B5C60001B7D83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4EF6AB13214B5C60001B7D83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4EF6AB15214B5C60001B7D83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EF6AB16214B5C60001B7D83 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4EF6AB1D214B63A8001B7D83 /* YourDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YourDataModel.m; sourceTree = "<group>"; };
+		4EF6AB1E214B63A8001B7D83 /* YourDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YourDataModel.h; sourceTree = "<group>"; };
+		4EF6AB22214B6FCB001B7D83 /* UIImage+Blur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Blur.m"; sourceTree = "<group>"; };
+		4EF6AB23214B6FCB001B7D83 /* UIImage+Blur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Blur.h"; sourceTree = "<group>"; };
+		4EF6AB26214B7163001B7D83 /* AudioData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AudioData.plist; sourceTree = "<group>"; };
+		4EF6AB28214B7163001B7D83 /* 王若琳-迷宫.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "王若琳-迷宫.lrc"; sourceTree = "<group>"; };
+		4EF6AB29214B7163001B7D83 /* 周渝民-记得我爱你.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "周渝民-记得我爱你.lrc"; sourceTree = "<group>"; };
+		4EF6AB2A214B7163001B7D83 /* Dragon Pig-全部都是你.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Dragon Pig-全部都是你.lrc"; sourceTree = "<group>"; };
+		4EF6AB2B214B7163001B7D83 /* 刘依朵-醉红颜.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "刘依朵-醉红颜.lrc"; sourceTree = "<group>"; };
+		4EF6AB2C214B7163001B7D83 /* 许嵩(Vae)-有何不可.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "许嵩(Vae)-有何不可.lrc"; sourceTree = "<group>"; };
+		4EF6AB2D214B7163001B7D83 /* 巴音汗-80000!.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "巴音汗-80000!.lrc"; sourceTree = "<group>"; };
+		4EF6AB2E214B7163001B7D83 /* 音阙诗听-红昭愿.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "音阙诗听-红昭愿.lrc"; sourceTree = "<group>"; };
+		4EF6AB2F214B7163001B7D83 /* 汪苏泷-追光者.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "汪苏泷-追光者.lrc"; sourceTree = "<group>"; };
+		4EF6AB30214B7163001B7D83 /* ihoudf-dfplayer.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ihoudf-dfplayer.lrc"; sourceTree = "<group>"; };
+		4EF6AB31214B7163001B7D83 /* 权志龙-MISSING YOU.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "权志龙-MISSING YOU.lrc"; sourceTree = "<group>"; };
+		4EF6AB32214B7163001B7D83 /* 阿悄-死皮赖脸.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "阿悄-死皮赖脸.lrc"; sourceTree = "<group>"; };
+		4EF6AB33214B7163001B7D83 /* 徐良&小凌-321对不起.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "徐良&小凌-321对不起.lrc"; sourceTree = "<group>"; };
+		4EF6AB34214B7163001B7D83 /* 韩安旭-多幸运.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "韩安旭-多幸运.lrc"; sourceTree = "<group>"; };
+		4EF6AB36214B7163001B7D83 /* Frankmusik-Wrecking Ball.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Frankmusik-Wrecking Ball.mp3"; sourceTree = "<group>"; };
+		4EF6AB37214B7163001B7D83 /* 张杰-三生三世.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "张杰-三生三世.mp3"; sourceTree = "<group>"; };
+		4EF6AB38214B7163001B7D83 /* 陈冠希-战争.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "陈冠希-战争.mp3"; sourceTree = "<group>"; };
+		4EF6AB39214B7163001B7D83 /* Flo Rida-Can't Believe It.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Flo Rida-Can't Believe It.mp3"; sourceTree = "<group>"; };
+		4EF6AB3A214B7163001B7D83 /* 태양-눈,코,입 (眼，鼻，嘴).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "태양-눈,코,입 (眼，鼻，嘴).mp3"; sourceTree = "<group>"; };
+		4EF6AB3B214B7163001B7D83 /* 911-I Do.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "911-I Do.mp3"; sourceTree = "<group>"; };
+		4EF6AB3C214B7163001B7D83 /* PRC 巴音汗-80000 !.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "PRC 巴音汗-80000 !.mp3"; sourceTree = "<group>"; };
+		4EF6AB3D214B7163001B7D83 /* Tez Cadey-Seve (Radio Edit).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Tez Cadey-Seve (Radio Edit).mp3"; sourceTree = "<group>"; };
+		4EF6AB3E214B7163001B7D83 /* addAudio.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = addAudio.plist; sourceTree = "<group>"; };
+		4EF6AB58214B87F2001B7D83 /* LocalAudioData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = LocalAudioData.plist; sourceTree = "<group>"; };
+		89D691FC7ED7649296E692A4 /* Pods-MusicPlay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusicPlay.release.xcconfig"; path = "Pods/Target Support Files/Pods-MusicPlay/Pods-MusicPlay.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4EF6AB01214B5C5E001B7D83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B1A563DDC0E2D16EB26FB3D /* Pods_MusicPlay.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44018DB37E07C7BA572CEB64 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1C779F0B18283A3B6D20D993 /* Pods-MusicPlay.debug.xcconfig */,
+				89D691FC7ED7649296E692A4 /* Pods-MusicPlay.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4ED29BCE21A26F2600664B11 /* DFPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				4ED29BCF21A26F2600664B11 /* DFPlayerControlManager.m */,
+				4ED29BD021A26F2600664B11 /* DFPlayerModel.h */,
+				4ED29BD121A26F2600664B11 /* DFPlayer.h */,
+				4ED29BD221A26F2600664B11 /* DFPlayerModel.m */,
+				4ED29BD321A26F2600664B11 /* DFPlayerControlManager.h */,
+				4ED29BD421A26F2600664B11 /* supplement */,
+				4ED29BE321A26F2600664B11 /* DFPlayer.m */,
+				4ED29BE421A26F2600664B11 /* DFPlayer.bundle */,
+			);
+			path = DFPlayer;
+			sourceTree = "<group>";
+		};
+		4ED29BD421A26F2600664B11 /* supplement */ = {
+			isa = PBXGroup;
+			children = (
+				4ED29BD521A26F2600664B11 /* AFNetworkReachabilityManager.h */,
+				4ED29BD621A26F2600664B11 /* DFPlayerRemoteApplication.m */,
+				4ED29BD721A26F2600664B11 /* DFPlayerRequestManager.m */,
+				4ED29BD821A26F2600664B11 /* DFPlayerResourceLoader.m */,
+				4ED29BD921A26F2600664B11 /* DFPlayerTool.m */,
+				4ED29BDA21A26F2600664B11 /* DFPlayerFileManager.h */,
+				4ED29BDB21A26F2600664B11 /* DFPlayerLyricsTableview.h */,
+				4ED29BDC21A26F2600664B11 /* DFPlayerRemoteApplication.h */,
+				4ED29BDD21A26F2600664B11 /* AFNetworkReachabilityManager.m */,
+				4ED29BDE21A26F2600664B11 /* DFPlayerTool.h */,
+				4ED29BDF21A26F2600664B11 /* DFPlayerResourceLoader.h */,
+				4ED29BE021A26F2600664B11 /* DFPlayerRequestManager.h */,
+				4ED29BE121A26F2600664B11 /* DFPlayerFileManager.m */,
+				4ED29BE221A26F2600664B11 /* DFPlayerLyricsTableview.m */,
+			);
+			path = supplement;
+			sourceTree = "<group>";
+		};
+		4EF6AAFB214B5C5E001B7D83 = {
+			isa = PBXGroup;
+			children = (
+				4EF6AB06214B5C5E001B7D83 /* MusicPlay */,
+				4EF6AB05214B5C5E001B7D83 /* Products */,
+				44018DB37E07C7BA572CEB64 /* Pods */,
+				F0A2C29EFA12F2F8003EE4A8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4EF6AB05214B5C5E001B7D83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4EF6AB04214B5C5E001B7D83 /* MusicPlay.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4EF6AB06214B5C5E001B7D83 /* MusicPlay */ = {
+			isa = PBXGroup;
+			children = (
+				4EF6AB07214B5C5F001B7D83 /* AppDelegate.h */,
+				4EF6AB08214B5C5F001B7D83 /* AppDelegate.m */,
+				4E67428B215F79B600B34CE7 /* RootViewController.h */,
+				4E67428C215F79B600B34CE7 /* RootViewController.m */,
+				4EF6AB0A214B5C5F001B7D83 /* ViewController.h */,
+				4EF6AB0B214B5C5F001B7D83 /* ViewController.m */,
+				4EF6AB1E214B63A8001B7D83 /* YourDataModel.h */,
+				4EF6AB1D214B63A8001B7D83 /* YourDataModel.m */,
+				4E08F303214FA0B100C9A49D /* ZQLrcModel.h */,
+				4E08F302214FA0B100C9A49D /* ZQLrcModel.m */,
+				4E08F2FF214FA06E00C9A49D /* ZQLyricTool.h */,
+				4E08F300214FA06E00C9A49D /* ZQLyricTool.m */,
+				4E08F306214FA3E600C9A49D /* ZQLabel.h */,
+				4E08F305214FA3E600C9A49D /* ZQLabel.m */,
+				4E1A0F95216EF88D00C432F4 /* JXTProgressLabel.h */,
+				4E1A0F96216EF88E00C432F4 /* JXTProgressLabel.m */,
+				4E145E14217D6F3E0064CC5D /* WebVideoPlayVC.h */,
+				4E145E15217D6F3E0064CC5D /* WebVideoPlayVC.m */,
+				4E0FC9C821C106AE004CB2C5 /* AudioPlayVC.h */,
+				4E0FC9C921C106AE004CB2C5 /* AudioPlayVC.m */,
+				4EF6AB25214B7163001B7D83 /* Resource */,
+				4EF6AB23214B6FCB001B7D83 /* UIImage+Blur.h */,
+				4EF6AB22214B6FCB001B7D83 /* UIImage+Blur.m */,
+				4EF4D9072150B8E000517D87 /* UIColor+Addition.h */,
+				4EF4D9062150B8E000517D87 /* UIColor+Addition.m */,
+				4ED29BCE21A26F2600664B11 /* DFPlayer */,
+				4EF6AB0D214B5C5F001B7D83 /* Main.storyboard */,
+				4EF6AB10214B5C60001B7D83 /* Assets.xcassets */,
+				4EF6AB12214B5C60001B7D83 /* LaunchScreen.storyboard */,
+				4EF6AB15214B5C60001B7D83 /* Info.plist */,
+				4EF6AB16214B5C60001B7D83 /* main.m */,
+				4EF4D9052150B7D900517D87 /* PrefixHeader.pch */,
+			);
+			path = MusicPlay;
+			sourceTree = "<group>";
+		};
+		4EF6AB25214B7163001B7D83 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				4EF6AB27214B7163001B7D83 /* LRC */,
+				4EF6AB35214B7163001B7D83 /* LocalAudio */,
+				4EF6AB3E214B7163001B7D83 /* addAudio.plist */,
+				4EF6AB26214B7163001B7D83 /* AudioData.plist */,
+				4EF6AB58214B87F2001B7D83 /* LocalAudioData.plist */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		4EF6AB27214B7163001B7D83 /* LRC */ = {
+			isa = PBXGroup;
+			children = (
+				4EF6AB28214B7163001B7D83 /* 王若琳-迷宫.lrc */,
+				4EF6AB29214B7163001B7D83 /* 周渝民-记得我爱你.lrc */,
+				4EF6AB2A214B7163001B7D83 /* Dragon Pig-全部都是你.lrc */,
+				4ED29BA521A258C600664B11 /* 月半小夜曲.lrc */,
+				4EF6AB2B214B7163001B7D83 /* 刘依朵-醉红颜.lrc */,
+				4EF6AB2C214B7163001B7D83 /* 许嵩(Vae)-有何不可.lrc */,
+				4EF6AB2D214B7163001B7D83 /* 巴音汗-80000!.lrc */,
+				4EF6AB2E214B7163001B7D83 /* 音阙诗听-红昭愿.lrc */,
+				4EF6AB2F214B7163001B7D83 /* 汪苏泷-追光者.lrc */,
+				4E566DE1217434C40049665E /* 刚好遇见你.lrc */,
+				4EF6AB30214B7163001B7D83 /* ihoudf-dfplayer.lrc */,
+				4EF6AB31214B7163001B7D83 /* 权志龙-MISSING YOU.lrc */,
+				4EF6AB32214B7163001B7D83 /* 阿悄-死皮赖脸.lrc */,
+				4EF6AB33214B7163001B7D83 /* 徐良&小凌-321对不起.lrc */,
+				4EF6AB34214B7163001B7D83 /* 韩安旭-多幸运.lrc */,
+			);
+			path = LRC;
+			sourceTree = "<group>";
+		};
+		4EF6AB35214B7163001B7D83 /* LocalAudio */ = {
+			isa = PBXGroup;
+			children = (
+				4EF6AB36214B7163001B7D83 /* Frankmusik-Wrecking Ball.mp3 */,
+				4E08F308214FAAD000C9A49D /* 李克勤 - 月半小夜曲.mp3 */,
+				4EF6AB37214B7163001B7D83 /* 张杰-三生三世.mp3 */,
+				4EF6AB38214B7163001B7D83 /* 陈冠希-战争.mp3 */,
+				4EF6AB39214B7163001B7D83 /* Flo Rida-Can't Believe It.mp3 */,
+				4EF6AB3A214B7163001B7D83 /* 태양-눈,코,입 (眼，鼻，嘴).mp3 */,
+				4EF6AB3B214B7163001B7D83 /* 911-I Do.mp3 */,
+				4EF6AB3C214B7163001B7D83 /* PRC 巴音汗-80000 !.mp3 */,
+				4EF6AB3D214B7163001B7D83 /* Tez Cadey-Seve (Radio Edit).mp3 */,
+			);
+			path = LocalAudio;
+			sourceTree = "<group>";
+		};
+		F0A2C29EFA12F2F8003EE4A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48633FA432D6A97A706C80F8 /* Pods_MusicPlay.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4EF6AB03214B5C5E001B7D83 /* MusicPlay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EF6AB1A214B5C60001B7D83 /* Build configuration list for PBXNativeTarget "MusicPlay" */;
+			buildPhases = (
+				524692633B1058C02296FA1F /* [CP] Check Pods Manifest.lock */,
+				4EF6AB00214B5C5E001B7D83 /* Sources */,
+				4EF6AB01214B5C5E001B7D83 /* Frameworks */,
+				4EF6AB02214B5C5E001B7D83 /* Resources */,
+				8991C899124A48E2796E5EEC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MusicPlay;
+			productName = MusicPlay;
+			productReference = 4EF6AB04214B5C5E001B7D83 /* MusicPlay.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4EF6AAFC214B5C5E001B7D83 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "iOS-Mac";
+				TargetAttributes = {
+					4EF6AB03214B5C5E001B7D83 = {
+						CreatedOnToolsVersion = 9.4.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 4EF6AAFF214B5C5E001B7D83 /* Build configuration list for PBXProject "MusicPlay" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4EF6AAFB214B5C5E001B7D83;
+			productRefGroup = 4EF6AB05214B5C5E001B7D83 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4EF6AB03214B5C5E001B7D83 /* MusicPlay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4EF6AB02214B5C5E001B7D83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EF6AB59214B87F2001B7D83 /* LocalAudioData.plist in Resources */,
+				4EF6AB44214B7163001B7D83 /* 刘依朵-醉红颜.lrc in Resources */,
+				4EF6AB4E214B7163001B7D83 /* Frankmusik-Wrecking Ball.mp3 in Resources */,
+				4EF6AB54214B7163001B7D83 /* PRC 巴音汗-80000 !.mp3 in Resources */,
+				4ED29BEF21A26F2600664B11 /* DFPlayer.bundle in Resources */,
+				4EF6AB50214B7163001B7D83 /* 陈冠希-战争.mp3 in Resources */,
+				4EF6AB14214B5C60001B7D83 /* LaunchScreen.storyboard in Resources */,
+				4EF6AB48214B7163001B7D83 /* 汪苏泷-追光者.lrc in Resources */,
+				4EF6AB51214B7163001B7D83 /* Flo Rida-Can't Believe It.mp3 in Resources */,
+				4EF6AB4F214B7163001B7D83 /* 张杰-三生三世.mp3 in Resources */,
+				4E566DE2217434C40049665E /* 刚好遇见你.lrc in Resources */,
+				4EF6AB4B214B7163001B7D83 /* 阿悄-死皮赖脸.lrc in Resources */,
+				4EF6AB4A214B7163001B7D83 /* 权志龙-MISSING YOU.lrc in Resources */,
+				4EF6AB4D214B7163001B7D83 /* 韩安旭-多幸运.lrc in Resources */,
+				4EF6AB56214B7163001B7D83 /* addAudio.plist in Resources */,
+				4EF6AB40214B7163001B7D83 /* AudioData.plist in Resources */,
+				4EF6AB52214B7163001B7D83 /* 태양-눈,코,입 (眼，鼻，嘴).mp3 in Resources */,
+				4EF6AB55214B7163001B7D83 /* Tez Cadey-Seve (Radio Edit).mp3 in Resources */,
+				4EF6AB47214B7163001B7D83 /* 音阙诗听-红昭愿.lrc in Resources */,
+				4EF6AB49214B7163001B7D83 /* ihoudf-dfplayer.lrc in Resources */,
+				4EF6AB53214B7163001B7D83 /* 911-I Do.mp3 in Resources */,
+				4EF6AB45214B7163001B7D83 /* 许嵩(Vae)-有何不可.lrc in Resources */,
+				4EF6AB42214B7163001B7D83 /* 周渝民-记得我爱你.lrc in Resources */,
+				4EF6AB43214B7163001B7D83 /* Dragon Pig-全部都是你.lrc in Resources */,
+				4EF6AB11214B5C60001B7D83 /* Assets.xcassets in Resources */,
+				4E08F309214FAAD000C9A49D /* 李克勤 - 月半小夜曲.mp3 in Resources */,
+				4EF6AB46214B7163001B7D83 /* 巴音汗-80000!.lrc in Resources */,
+				4ED29BA621A258C600664B11 /* 月半小夜曲.lrc in Resources */,
+				4EF6AB41214B7163001B7D83 /* 王若琳-迷宫.lrc in Resources */,
+				4EF6AB0F214B5C5F001B7D83 /* Main.storyboard in Resources */,
+				4EF6AB4C214B7163001B7D83 /* 徐良&小凌-321对不起.lrc in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		524692633B1058C02296FA1F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MusicPlay-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8991C899124A48E2796E5EEC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MusicPlay/Pods-MusicPlay-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FLAnimatedImage/FLAnimatedImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/StreamingKit/StreamingKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FLAnimatedImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/StreamingKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MusicPlay/Pods-MusicPlay-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4EF6AB00214B5C5E001B7D83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EF4D9082150B8E000517D87 /* UIColor+Addition.m in Sources */,
+				4EF6AB1F214B63A8001B7D83 /* YourDataModel.m in Sources */,
+				4E1A0F97216EF88E00C432F4 /* JXTProgressLabel.m in Sources */,
+				4E145E16217D6F3E0064CC5D /* WebVideoPlayVC.m in Sources */,
+				4ED29BED21A26F2600664B11 /* DFPlayerLyricsTableview.m in Sources */,
+				4ED29BEA21A26F2600664B11 /* DFPlayerTool.m in Sources */,
+				4ED29BEB21A26F2600664B11 /* AFNetworkReachabilityManager.m in Sources */,
+				4ED29BE621A26F2600664B11 /* DFPlayerModel.m in Sources */,
+				4E0FC9CA21C106AE004CB2C5 /* AudioPlayVC.m in Sources */,
+				4ED29BE721A26F2600664B11 /* DFPlayerRemoteApplication.m in Sources */,
+				4EF6AB0C214B5C5F001B7D83 /* ViewController.m in Sources */,
+				4E08F301214FA06E00C9A49D /* ZQLyricTool.m in Sources */,
+				4EF6AB24214B6FCB001B7D83 /* UIImage+Blur.m in Sources */,
+				4ED29BEE21A26F2600664B11 /* DFPlayer.m in Sources */,
+				4ED29BE521A26F2600664B11 /* DFPlayerControlManager.m in Sources */,
+				4EF6AB17214B5C60001B7D83 /* main.m in Sources */,
+				4E08F304214FA0B100C9A49D /* ZQLrcModel.m in Sources */,
+				4ED29BEC21A26F2600664B11 /* DFPlayerFileManager.m in Sources */,
+				4EF6AB09214B5C5F001B7D83 /* AppDelegate.m in Sources */,
+				4E08F307214FA3E600C9A49D /* ZQLabel.m in Sources */,
+				4ED29BE921A26F2600664B11 /* DFPlayerResourceLoader.m in Sources */,
+				4ED29BE821A26F2600664B11 /* DFPlayerRequestManager.m in Sources */,
+				4E67428D215F79B600B34CE7 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4EF6AB0D214B5C5F001B7D83 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EF6AB0E214B5C5F001B7D83 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4EF6AB12214B5C60001B7D83 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EF6AB13214B5C60001B7D83 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4EF6AB18214B5C60001B7D83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4EF6AB19214B5C60001B7D83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4EF6AB1B214B5C60001B7D83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C779F0B18283A3B6D20D993 /* Pods-MusicPlay.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S24KMPBJ78;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MusicPlay/PrefixHeader.pch";
+				INFOPLIST_FILE = MusicPlay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ios.MusicPlay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4EF6AB1C214B5C60001B7D83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89D691FC7ED7649296E692A4 /* Pods-MusicPlay.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S24KMPBJ78;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MusicPlay/PrefixHeader.pch";
+				INFOPLIST_FILE = MusicPlay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ios.MusicPlay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4EF6AAFF214B5C5E001B7D83 /* Build configuration list for PBXProject "MusicPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EF6AB18214B5C60001B7D83 /* Debug */,
+				4EF6AB19214B5C60001B7D83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EF6AB1A214B5C60001B7D83 /* Build configuration list for PBXNativeTarget "MusicPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EF6AB1B214B5C60001B7D83 /* Debug */,
+				4EF6AB1C214B5C60001B7D83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4EF6AAFC214B5C5E001B7D83 /* Project object */;
+}

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>audioUrl</key>
+		<string>李克勤 - 月半小夜曲.mp3</string>
+		<key>audioName</key>
+		<string>李克勤 - 月半小夜曲</string>
+		<key>audioSinger</key>
+		<string>李克勤</string>
+		<key>audioImage</key>
+		<string>李克勤.jpg</string>
+		<key>audioAlbum</key>
+		<string>环球真经典系列之李克勤</string>
+		<key>audioLyric</key>
+		<string>月半小夜曲.lrc</string>
+	</dict>
+	<dict>
+		<key>audioUrl</key>
+		<string>PRC 巴音汗-80000 !.mp3</string>
+		<key>audioName</key>
+		<string>80000 !</string>
+		<key>audioSinger</key>
+		<string>PRC 巴音汗</string>
+		<key>audioImage</key>
+		<string>https://y.gtimg.cn/music/photo_new/T002R300x300M000003rH8SJ2NTPLO.jpg?max_age=2592000</string>
+		<key>audioAlbum</key>
+		<string>80000 !</string>
+		<key>audioLyric</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>audioUrl</key>
+		<string>https://upload.bobbyen.com/files/J1u/ziq/gstm6cPbnKQpJKCp6ry1qDvaQ0RTQzfE.mp3</string>
+		<key>audioName</key>
+		<string>刚好遇见你</string>
+		<key>audioSinger</key>
+		<string>李玉刚</string>
+		<key>audioImage</key>
+		<string>https://y.gtimg.cn/music/photo_new/T002R300x300M000003rH8SJ2NTPLO.jpg?max_age=2592000</string>
+		<key>audioAlbum</key>
+		<string>80000 !</string>
+		<key>audioLyric</key>
+		<string>刚好遇见你.lrc</string>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,24 @@
+PODS:
+  - FLAnimatedImage (1.0.12)
+  - Masonry (1.1.0)
+  - StreamingKit (0.1.30)
+
+DEPENDENCIES:
+  - FLAnimatedImage
+  - Masonry
+  - StreamingKit
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FLAnimatedImage
+    - Masonry
+    - StreamingKit
+
+SPEC CHECKSUMS:
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  StreamingKit: 70ca8608c206864b4d54a577eacb3c8bf7c72209
+
+PODFILE CHECKSUM: 65e417f9cb1a6fd4b63c2d84546b1c5d98a4c20e
+
+COCOAPODS: 1.5.3
